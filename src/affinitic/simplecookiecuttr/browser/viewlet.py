@@ -56,5 +56,5 @@ class CookieCuttrViewlet(ViewletBase):
             else:
                 from logging import getLogger
                 log = getLogger('affinitic.simplecookiecuttr')
-                log.debug('There are no available %s messages' % language)
+                log.info('There are no available %s messages' % language)
         return ""
