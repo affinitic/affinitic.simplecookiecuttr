@@ -27,5 +27,7 @@ setup(name='affinitic.simplecookiecuttr',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.js.jquery',
+          'plone.memoize',
           # -*- Extra requirements: -*-
       ])

@@ -2,9 +2,10 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser">
 
-   <include file="profiles.zcml" />
-
+   <include package="collective.js.jquery" />
    <include package=".browser" />
+
+   <include file="profiles.zcml" />
 
    <browser:resourceDirectory
        name="affinitic.simplecookiecuttr"
