@@ -4,6 +4,8 @@
 
    <include file="profiles.zcml" />
 
+   <include package=".browser" />
+
    <browser:resourceDirectory
        name="affinitic.simplecookiecuttr"
        directory="static"
