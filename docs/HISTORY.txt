@@ -4,7 +4,8 @@ Changelog
 0.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Remove metadata : #9308
+  [francois]
 
 
 0.2 (2016-10-26)
